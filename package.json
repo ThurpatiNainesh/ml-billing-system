@@ -1,0 +1,7 @@
+{
+  "name": "ml-billing-system",
+  "scripts": {
+    "start:backend": "node backend/server.js",
+    "start:frontend": "cd frontend && npm run dev"
+  }
+}

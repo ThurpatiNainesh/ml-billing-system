@@ -1,0 +1,7 @@
+.container { max-width: 800px; margin: 2rem auto; font-family: sans-serif; }
+.form input, .form select, .form textarea { display: block; width: 100%; margin: .5rem 0; padding: .5rem; }
+.form button { padding: .5rem 1rem; }
+.list { list-style: none; padding: 0; }
+.list li { margin: .5rem 0; }
+.detail p { margin: .25rem 0; }
+.detail h2 { margin-bottom: .5rem; }
