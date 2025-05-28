@@ -33,7 +33,8 @@ export default function ProjectForm({ onAdded }) {
       <input name="designation" placeholder="Designation" value={proj.designation} onChange={handleChange} required />
       <input name="dateDelivered" type="date" value={proj.dateDelivered} onChange={handleChange} required />
       <select name="status" value={proj.status} onChange={handleChange}>
-        <option value="ongoing">ongoing</option><option value="completed">completed</option><option value="pending">pending</option>
+        <option value="ongoing">ongoing</option>
+        {/* <option value="completed">completed</option><option value="pending">pending</option> */}
       </select>
       <input name="cost" type="number" placeholder="Cost" value={proj.cost} onChange={handleChange} />
       <textarea name="notes" placeholder="Notes" value={proj.notes} onChange={handleChange} />

@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-     "axios": "^1.x",
+    "@ant-design/icons": "^6.0.0",
+    "antd": "^5.25.2",
+    "axios": "^1.x",
     "react": "^18.x",
     "react-dom": "^18.x",
     "react-router-dom": "^6.x"
